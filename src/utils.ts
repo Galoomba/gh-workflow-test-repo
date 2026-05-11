@@ -4,9 +4,8 @@ export function formatDate(date: Date): string {
   return date.toISOString().split('T')[0];
 }
 
-// TODO: fix typo below
-export function recieveMessage(msg: string): void {
-  console.log(`Recieved message: ${msg}`);
+export function receiveMessage(msg: string): void {
+  console.log(`Received message: ${msg}`);
 }
 
 export function calculateTotal(items: number[]): number {
