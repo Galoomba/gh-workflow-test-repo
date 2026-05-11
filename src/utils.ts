@@ -9,13 +9,12 @@ export function formatDate(date: Date): string {
   return date.toISOString().split('T')[0];
 }
 
-// TODO: fix typo below
 /**
  * Logs a received message to the console.
  * @param msg - The message to log.
  */
-export function recieveMessage(msg: string): void {
-  console.log(`Recieved message: ${msg}`);
+export function receiveMessage(msg: string): void {
+  console.log(`Received message: ${msg}`);
 }
 
 /**
